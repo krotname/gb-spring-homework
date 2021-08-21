@@ -1,4 +1,4 @@
-package name.krot.homework;
+package com.example.demo;
 
 public class Product {
     private int id;
