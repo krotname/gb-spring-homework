@@ -1,6 +1,13 @@
 package com.example.demo;
 
-public class Product {
+import lombok.Data;
+import org.springframework.context.annotation.Scope;
+import org.springframework.stereotype.Component;
+
+@Scope("protorype")
+@Component
+public @Data
+class Product {
     private int id;
     private String title;
     private  double cost;
