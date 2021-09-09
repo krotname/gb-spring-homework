@@ -4,7 +4,6 @@ import lombok.Data;
 import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
 
-@Scope("protorype")
 @Component
 public @Data
 class Product {
